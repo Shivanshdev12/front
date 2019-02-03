@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body
+{
+    background-image:url("bg.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover; 
+    position: relative;
+    background-position:center; 
+    height:654px; 
+    font-family: 'Acme', sans-serif;
+}
+#header
+{
+    top:0;
+    width:100%;
+    position:fixed;
+   /* background-color:rgba(255,255,255,0.5);*/
+   padding:20px; 
+    font-family: 'Acme', sans-serif;
+    margin-right:-40px;
+    box-shadow:0 0 1em rgba(0,0,0,0.5); 
+    color:wheat;
+}
+a,a:hover{
+    text-decoration:none; 
+}
+h1
+{
+    margin:2px;
+    float: left;
+}
+h2{
+ 
+   float:right;
+}
+/*.signin
+{
+    height:110px;
+    width:75px;
+    margin-left:200px;
+    margin-top:200px;
+
+}
+.signin:hover
+{
+    transform:rotate(90deg);
+    transition:2s;  
+}*/
+#btn
+{
+    border:solid 1px #ddd;
+    border-radius:65px;
+    box-shadow:0 0 1.3em rgba(255,255,255,0.2); 
+    color:white;
+    font-size:1.3em;
+    padding:25px;
+    background-color:grey; 
+    margin:130px;
+}
+
+form{
+    font-size:1.2em;
+    display:none;  
+}
+.form-group
+{
+    border:1px solid rgba(255,255,255,0.7);
+    position:relative;
+    border-radius:10px;
+    padding:20px;
+    background-color:rgba(0,0,0,0.4); 
+    box-shadow:0 0 1.4em rgba(0,0,0,0.3);
+    width:300px;
+}
+.form-control
+{
+  height:30px;
+  background-color:#ffccff; 
+}
